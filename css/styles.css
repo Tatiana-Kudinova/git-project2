@@ -1,6 +1,7 @@
 body {
   font-family: "roboto", "sans-serif";
   color: #2e2f42;
+  background-color: #ffffff;
 }
 
 .list {
@@ -83,19 +84,11 @@ body {
 
 .contact-mail:focus,
 .contact-tel:focus,
-.header-link:focus {
-  color: #4d5ae5;
-}
-
+.header-link:focus,
 .contact-mail:hover,
 .contact-tel:hover,
 .header-link:hover {
   color: #404bbf;
-}
-
-.header-logo:hover,
-.header-logo:focus {
-  color: #4d5ae5;
 }
 
 /* ------hero----- */
@@ -109,7 +102,6 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-
   color: #ffffff;
 }
 .hero-btn {
@@ -125,12 +117,11 @@ body {
   color: #ffffff;
   background-color: #4d5ae5;
 }
-.hero-btn:hover {
-  background-color: #4d5ae5;
-}
+.hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
 }
+
 /* ----about----- */
 .about {
 }
@@ -211,10 +202,6 @@ body {
 .logo-part {
   color: #4d5ae5;
 }
-.footer-logo:hover,
-.footer-logo:focus {
-  color: #4d5ae5;
-}
 
 .footer-subtitle {
   font-family: inherit;
@@ -241,17 +228,20 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
-  background: #f4f4fd;
+  background-color: #f4f4fd;
   cursor: pointer;
 }
 .examples-btn:hover,
 .examples-btn:focus {
   color: #ffffff;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
 }
 .examples-img-list {
 }
 .examples-img-item {
+}
+.examples-img-link {
+  background-color: #ffffff;
 }
 .examples-aftertitle {
   font-family: inherit;
